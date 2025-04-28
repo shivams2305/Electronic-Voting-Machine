@@ -50,18 +50,13 @@ machine design.
 
 # How to RUN?
 
-1. **Clone the Repository:**
-   
+1. **Clone the Repository:** https://github.com/shivams2305/Electronic-Voting-Machine.git
 
-2. **Open in Verilog Simulation Tool:**
+2. **Open in Verilog Simulation Tool:** Open your preferred Verilog simulation environment (e.g., ModelSim, Vivado).
 
-Open your preferred Verilog simulation environment (e.g., ModelSim, Vivado).
+3. **Compile:** Compile Verilog modules (votingMachine.v, testbench.v) in your simulation tool.
 
-3. **Compile and Simulate:**
-
-Compile Verilog modules (votingMachine.v, testbench.v) in your simulation tool.
-
-Run the simulation using testbench.v to observe and verify the functionality of the voting machine design.
+4. **Simulate:** Run the simulation using testbench.v to observe and verify the functionality of the voting machine design.
 
 # Contact
 
