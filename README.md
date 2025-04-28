@@ -1,4 +1,4 @@
-# Electronic-Voting-Machine-
+# Electronic-Voting-Machine
 
 # What is Voting Machine?
 
