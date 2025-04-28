@@ -33,17 +33,36 @@ transparent election monitoring.
 
 The project is structured into modular Verilog components:
 
- • **buttonControl.v**: Implements button debouncing logic to ensure accurate detection of button 
+ 1. **buttonControl.v**: Implements button debouncing logic to ensure accurate detection of button 
 presses.
 
- • **modeControl.v**: Manages mode selection and controls LED displays to reflect voting results based 
+ 2. **modeControl.v**: Manages mode selection and controls LED displays to reflect voting results based 
 on the current mode.
 
- • **vote_logger.v**: Logs and counts valid votes for each candidate, ensuring accurate tallying and 
+ 3. **vote_logger.v**: Logs and counts valid votes for each candidate, ensuring accurate tallying and 
 recording of votes.
 
- • **votingmachine.v**:Integrates all modules to form the complete voting system, orchestrating the 
+ 4. **votingmachine.v**:Integrates all modules to form the complete voting system, orchestrating the 
 voting process and result display.
 
- • **TestBench.v**: Provides a simulation environment to validate and verify the functionality of the voting 
+ 5. **TestBench.v**: Provides a simulation environment to validate and verify the functionality of the voting 
 machine design.
+
+# How to RUN?
+
+1. **Clone the Repository:**
+   
+
+2. **Open in Verilog Simulation Tool:**
+
+Open your preferred Verilog simulation environment (e.g., ModelSim, Vivado).
+
+3. **Compile and Simulate:**
+
+Compile Verilog modules (votingMachine.v, testbench.v) in your simulation tool.
+
+Run the simulation using testbench.v to observe and verify the functionality of the voting machine design.
+
+# Contact
+
+In case of any queries or updates feel free to contact **shivamsingla7288277@gmail.com**.
